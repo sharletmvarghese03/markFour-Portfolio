@@ -13,3 +13,20 @@ body {
 	padding: 0;
 	box-sizing: border-box;
 }
+
+hr {
+	margin: 2rem 0;
+}
+
+/** container **/
+
+.container {
+	padding: 0rem 1rem;
+}
+
+.container-center {
+	max-width: 700px;
+	/* margin: auto; */
+	display: flex;
+	justify-content: center;
+}

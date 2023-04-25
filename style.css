@@ -26,9 +26,7 @@ hr {
 
 .container-center {
 	max-width: 700px;
-	/* margin: auto; */
-	display: flex;
-	justify-content: center;
+	margin: auto;
 }
 
 /** links **/
@@ -104,4 +102,41 @@ hr {
 
 .hero .hero-heading .heading-inverted {
 	color: var(--primary-color);
+}
+
+/** section **/
+
+.section {
+	padding: 2rem;
+}
+
+.section h1 {
+	text-align: center;
+}
+
+.ow {
+	background-color: var(--off-white);
+}
+
+/** footer **/
+
+.footer {
+	background-color: var(--primary-color);
+	padding: 2rem 1rem;
+	text-align: center;
+	color: var(--light-color);
+	border-top-right-radius: 1rem;
+}
+
+.footer .footer-header {
+	font-weight: bold;
+	font-size: large;
+}
+
+.footer .link {
+	color: var(--light-color);
+}
+
+.footer ul {
+	padding-inline-start: 0px;
 }

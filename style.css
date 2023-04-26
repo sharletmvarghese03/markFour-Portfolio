@@ -134,6 +134,7 @@ hr {
 }
 
 .footer .link {
+	font-size: xx-large;
 	color: var(--light-color);
 }
 
